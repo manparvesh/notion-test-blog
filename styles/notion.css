@@ -7,8 +7,19 @@
  * places to add some flare.
  */
 
+/* hide links */
 .notion-block-4659dbf8e9004897b02fce0c2ff2682c {
   display: none !important;
+}
+
+/* hide links */
+.notion-block-528b1a63bf7d4b1d9b38bb9bcbb10a4f {
+  display: none;
+}
+
+/* hide links */
+.notion-block-99be850a74244e8cb4710f61885c7430 {
+  display: none;
 }
 
 .notion {
