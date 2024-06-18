@@ -47,8 +47,7 @@ export default siteConfig({
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
   pageUrlOverrides: {
-    '/resume': '2da1726d02a449278a4c4fb61a6a4334',
-    '/contact': '723d9e3644094bd184828393f5d3144a'
+    '/blog': '4659dbf8e9004897b02fce0c2ff2682c'
   },
 
   // whether to use the default notion navigation style or a custom one with links to
@@ -57,12 +56,8 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: '📫 Contact',
-      pageId: '723d9e3644094bd184828393f5d3144a'
+      title: '✍️ Blog',
+      pageId: '4659dbf8e9004897b02fce0c2ff2682c'
     },
-    {
-      title: '📄 Resume',
-      pageId: '2da1726d02a449278a4c4fb61a6a4334'
-    }
   ]
 })
