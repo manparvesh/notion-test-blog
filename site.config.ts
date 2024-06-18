@@ -46,7 +46,14 @@ export default siteConfig({
   //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
-  pageUrlOverrides: null,
+  pageUrlOverrides: {
+    '/pathankot': 'b2c19ca4d05e4668a148d633c2ceaed8',
+    '/guwahati': '0be444d10ac34878ad0d01c3e7e7d80c',
+    '/bangalore': 'efb78fac1a3b48bfb843a3a203504140',
+    '/singapore': 'd1261114bde64647b3cc2856d1f270d7',
+    '/gili': '911cf5590ecb47738168cbeb47138a5e',
+    '/langkawi': 'd1dca5c185a941c9814120fe8c69b9ae',
+  },
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
