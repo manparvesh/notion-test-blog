@@ -2,15 +2,15 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '1afa57a764ce4d90bc7ca7f330fb2485',
+  rootNotionPageId: '55e4a745c9c44dd6af2374ce6e70777a',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Man Parvesh Singh Randhawa',
-  domain: 'manparvesh.com',
+  name: 'Man Parvesh\'s Photography website',
+  domain: 'photos.manparvesh.com',
   author: 'Man Parvesh Singh Randhawa',
 
   // open graph metadata (optional)
@@ -18,7 +18,7 @@ export default siteConfig({
 
   // social usernames (optional)
   twitter: '',
-  github: 'manparvesh',
+  github: '',
   linkedin: 'manparvesh',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
@@ -47,7 +47,7 @@ export default siteConfig({
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
   pageUrlOverrides: {
-    '/blog': '4659dbf8e9004897b02fce0c2ff2682c'
+    '/contact': '984efa531cbd4908acd14b2fb5e40331'
   },
 
   // whether to use the default notion navigation style or a custom one with links to
@@ -56,8 +56,8 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: '✍️ Blog',
-      pageId: '4659dbf8e9004897b02fce0c2ff2682c'
+      title: '📫 Contact',
+      pageId: '984efa531cbd4908acd14b2fb5e40331'
     },
   ]
 })
