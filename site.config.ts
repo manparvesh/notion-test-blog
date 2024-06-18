@@ -49,6 +49,10 @@ export default siteConfig({
   pageUrlOverrides: {
     '/blog': '4659dbf8e9004897b02fce0c2ff2682c',
     '/publications': '528b1a63bf7d4b1d9b38bb9bcbb10a4f',
+    '/igc': '9f075d7ec32f486293373edddef729a3',
+    '/springer': 'bc199607020843eb80c37f935b0fc8d9',
+    '/icse': '14e9ec37d2be4f04a9be225e13d42d6b',
+    '/nesgc': '1ead14f605b64529a7c0f2f79fe56ab8',
   },
 
   // whether to use the default notion navigation style or a custom one with links to
