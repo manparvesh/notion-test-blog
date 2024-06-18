@@ -7,6 +7,10 @@
  * places to add some flare.
  */
 
+.notion-block-4659dbf8e9004897b02fce0c2ff2682c {
+  display: none !important;
+}
+
 .notion {
   --notion-max-width: 720px;
   --notion-header-height: 54px;
