@@ -53,6 +53,7 @@ export default siteConfig({
     '/springer': 'bc199607020843eb80c37f935b0fc8d9',
     '/icse': '14e9ec37d2be4f04a9be225e13d42d6b',
     '/nesgc': '1ead14f605b64529a7c0f2f79fe56ab8',
+    '/projects': '99be850a74244e8cb4710f61885c7430',
   },
 
   // whether to use the default notion navigation style or a custom one with links to
@@ -68,5 +69,9 @@ export default siteConfig({
       title: '📑 Publications',
       pageId: '528b1a63bf7d4b1d9b38bb9bcbb10a4f'
     },
+    {
+      title: '👨‍💻 Projects',
+      pageId: '99be850a74244e8cb4710f61885c7430'
+    }
   ]
 })
